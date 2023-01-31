@@ -1,0 +1,5 @@
+Ver Icono
+Ver Titulos
+Ver Icono al enviar vinculo
+Agregar Botones para edicion
+Agregar funcionalidad de edicion de contenido
