@@ -144,6 +144,8 @@ h6{
 
 .accordion-body img{
     width: 240px !important;
+    box-shadow: 0 0 15px black;
+    margin-bottom: 10px;
 }
 
 .accordion-body p{
