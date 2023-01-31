@@ -10,7 +10,7 @@ body{
 }
 
 main{
-    margin-top: 20px;
+    margin: 20px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -148,6 +148,11 @@ h6{
 
 .accordion-body p{
     text-align: center;
+}
+
+.accordion-button{
+    background-color: #bf9 !important;
+    color: black !important;
 }
 
 @media screen and (min-width: 350px){
