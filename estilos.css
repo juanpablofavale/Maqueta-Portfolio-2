@@ -10,7 +10,7 @@ body{
 }
 
 main{
-    margin: 20px 0;
+    margin: 50px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -101,6 +101,7 @@ main ul{
 }
 
 main li{
+    position: relative;
     margin-top: 10px;
     padding: 15px;
     display: flex;
@@ -155,6 +156,64 @@ h6{
 .accordion-button{
     background-color: #bf9 !important;
     color: black !important;
+}
+
+.editar{
+    display: none;
+    cursor: pointer;
+    margin-top: -40px;
+    position: absolute;
+    right: 0;
+    margin-right: 8px;
+    width: 25px;
+}
+
+.ok{
+    display: none;
+    cursor: pointer;
+    margin-top: -40px;
+    position: absolute;
+    right: 0;
+    margin-right: 45px;
+    border-radius: 50%;
+    padding: 5px;
+    width: 40px;
+}
+
+.cancel{
+    display: none;
+    cursor: pointer;
+    margin-top: -40px;
+    position: absolute;
+    right: 0;
+    margin-right: 8px;
+    border-radius: 50%;
+    padding: 5px;
+    width: 40px;
+}
+
+.eliminar{
+    display: none;
+    margin: 5px !important;
+    padding: 0 !important;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    width: 25px !important;
+}
+
+.eliminar-habilidades{
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 5px;
+    width: 25px !important;
+}
+
+.visible{
+    display: initial;
 }
 
 @media screen and (min-width: 350px){
