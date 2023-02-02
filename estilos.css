@@ -141,9 +141,10 @@ h6{
 .accordion-body{
     text-align: center;
     padding: 30px !important;
+    padding-top: 50px !important;
 }
 
-.accordion-body img{
+.img-proy{
     width: 240px !important;
     box-shadow: 0 0 15px black;
     margin-bottom: 10px;
@@ -202,18 +203,21 @@ h6{
     width: 25px !important;
 }
 
-.eliminar-habilidades{
-    display: none;
-    cursor: pointer;
-    position: absolute;
-    right: 0;
+.eliminar-proyectos{
     top: 0;
-    margin: 5px;
-    width: 25px !important;
+    margin: 10px !important;
+}
+
+.eliminar-habilidades{
+    top: 0;
 }
 
 .visible{
     display: initial;
+}
+
+.accordion-body{
+    position: relative;
 }
 
 @media screen and (min-width: 350px){
@@ -237,7 +241,7 @@ h6{
     .proyectos{
         max-width: 900px;
     }
-    .accordion-body img{
+    .img-proy{
         width: 70% !important;
         max-width: 500px;
     }

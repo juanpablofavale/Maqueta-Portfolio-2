@@ -46,7 +46,9 @@
     </nav>
   </header>
   <main>
-    <img onclick="editar()" id="editar" class="editar" src="./img/lapiz.png" alt="" width="30">
+    <img onclick="editar()" id="editar" class="editar visible" src="./img/lapiz3.png" alt="" width="30">
+    <img onclick="ok()" id="ok" class="ok" src="./img/ok1.png" alt="" width="30">
+    <img onclick="cancel()" id="cancel" class="cancel" src="./img/eliminar2.png" alt="" width="30">
     <h1>Proyectos</h1>
     <div class="proyectos">
       <div class="accordion" id="accordionExample">
@@ -60,7 +62,8 @@
           <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
             data-bs-parent="#accordionExample">
             <div class="accordion-body">
-              <img src="./img/cocina_de_juan.png" alt="">
+              <img class="eliminar eliminar-proyectos" src="./img/eliminar1.png" alt="" onclick="eliminar()">
+              <img class="img-proy" src="./img/cocina_de_juan.png" alt="">
               <p>Sitio web estatico creado usando HTML y CSS.
               </p>
               <a class="btn btn-success" href="https://cocinadejuanfavale.netlify.app/index.html" target="_blank">Ir al
@@ -78,7 +81,8 @@
           <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
             data-bs-parent="#accordionExample">
             <div class="accordion-body">
-              <img src="./img/consolas.png" alt="">
+              <img class="eliminar eliminar-proyectos" src="./img/eliminar1.png" alt="" onclick="eliminar()">
+              <img class="img-proy" src="./img/consolas.png" alt="">
               <p>Inicio de proyecto de sitio web sobre video consolas y juegos</p>
               <a class="btn btn-success" href="https://prueba-proyecto-grupal.netlify.app/" target="_blank">Ir al
                 sitio</a>
@@ -95,7 +99,8 @@
           <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
             data-bs-parent="#accordionExample">
             <div class="accordion-body">
-              <img src="./img/nerdilon.png" alt="">
+              <img class="eliminar eliminar-proyectos" src="./img/eliminar1.png" alt="" onclick="eliminar()">
+              <img class="img-proy" src="./img/nerdilon.png" alt="">
               <p>Proyecto grupal de sitio web de nerdilon.</p>
               <a class="btn btn-success" href="https://jmcastex.github.io/nerdilon/pages/contacto.html"
                 target="_blank">Ir al sitio</a>
@@ -112,7 +117,8 @@
           <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
             data-bs-parent="#accordionExample">
             <div class="accordion-body">
-              <img src="./img/rotiseria.png" alt="">
+              <img class="eliminar eliminar-proyectos" src="./img/eliminar1.png" alt="" onclick="eliminar()">
+              <img class="img-proy" src="./img/rotiseria.png" alt="">
               <p>Proyecto avanzado de aplicacion web para una rotiseria.
                 CRUD API realizado en python. Front-End realizado con VUE.
               </p>
@@ -131,7 +137,8 @@
           <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
             data-bs-parent="#accordionExample">
             <div class="accordion-body">
-              <img src="./img/portfolio2.png" alt="">
+              <img class="eliminar eliminar-proyectos" src="./img/eliminar1.png" alt="" onclick="eliminar()">
+              <img class="img-proy" src="./img/portfolio2.png" alt="">
               <p>Portfolio personal de prueba.</p>
               <a class="btn btn-success" href="https://juanpablofavale.github.io/portfolio-angular/" target="_blank">Ir
                 al sitio</a>
