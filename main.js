@@ -5,39 +5,43 @@ let btnEdit = document.getElementById("editar")
 let btnAdd = document.getElementById("agregar")
 let tagMain = document.getElementById("main")
 
-function visible(){
+function visible() {
     btnCancel.classList.toggle("visible")
     btnOk.classList.toggle("visible")
     btnEdit.classList.toggle("visible")
-    for (i of btnDelete){
+    for (i of btnDelete) {
         i.classList.toggle("visible")
     }
     btnAdd.classList.toggle("visible")
 }
 
-function editar(){
+function editar() {
     console.log("editando")
     visible()
     console.log(tagMain.innerHTML)
-    tagMain.setAttribute("contenteditable","true")
+    tagMain.setAttribute("contenteditable", "true")
 }
 
-function eliminar(){
-    console.log("eliminando")
+function eliminar() {
+    if (confirm("Seguro que desea eliminar?")){
+        console.log("eliminando")
+    }
 }
 
-function ok(){
-    console.log("ok")
-    visible()
-    tagMain.removeAttribute("contenteditable")
+function ok() {
+    if (confirm("Seguro que desea confirmar los cambios y guardar?")) {
+        visible()
+        tagMain.removeAttribute("contenteditable")
+    }
 }
 
-function cancel(){
-    console.log("cancel")
-    visible()
-    tagMain.removeAttribute("contenteditable")
+function cancel() {
+    if (confirm("Seguro que desea cancelar los cambios?")) {
+        visible()
+        tagMain.removeAttribute("contenteditable")
+    }
 }
 
-function agregar(){
+function agregar() {
     console.log("agregar")
 }
