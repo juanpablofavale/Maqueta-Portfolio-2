@@ -51,6 +51,10 @@ nav li{
     transition: all .3s;
 }
 
+nav .btn{
+    margin: 5px;
+}
+
 .navbar-brand{
     color: white !important;
     display: flex;
@@ -256,5 +260,15 @@ h6{
     .img-proy{
         width: 70% !important;
         max-width: 500px;
+    }
+}
+@media screen and (min-width: 768px){
+    nav .btn{
+        position: absolute;
+        margin: 0;
+        right: 15px;
+    }
+    .reg{
+        right: 140px !important;
     }
 }
