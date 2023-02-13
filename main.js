@@ -4,6 +4,7 @@ let btnDelete = document.getElementsByClassName("eliminar")
 let btnEdit = document.getElementById("editar")
 let btnAdd = document.getElementById("agregar")
 let tagMain = document.getElementById("main")
+let frmInicio = document.getElementById("inicia")
 
 function visible() {
     btnCancel.classList.toggle("visible")
@@ -44,4 +45,8 @@ function cancel() {
 
 function agregar() {
     console.log("agregar")
+}
+
+function iniciar(){
+    frmInicio.classList.toggle("visible")
 }
