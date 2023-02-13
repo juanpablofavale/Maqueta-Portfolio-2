@@ -74,6 +74,10 @@ form a{
     margin-bottom: 25px;
 }
 
+.campo{
+    width: 200px;
+}
+
 main{
     margin: 50px 0;
     display: flex;
