@@ -67,7 +67,7 @@ body{
 
 .sesion:target{
     visibility: visible;
-    background-color: #000000cc;
+    background-color: #7ca179cc;
 }
 
 .sesion:target form{
@@ -94,11 +94,11 @@ form{
     transform: scale(0);
     position: absolute;
     width: 250px;
-    background-color: #cacaca;
-    box-shadow: inset 0 0 15px black,
-    6px 6px 20px,
-    -6px 6px 20px,
-    6px -6px 20px,
+    background-color: #e7e0e0;
+    box-shadow: inset 0 0 15px #00ff00c7,
+    6px 6px 20px ,
+    -6px 6px 20px ,
+    6px -6px 20px ,
     -6px -6px 20px;
     border-radius: 4px;
     text-align: center;
@@ -106,7 +106,7 @@ form{
 }
 
 form div{
-    border-top: 2px solid green;
+    border-top: 2px solid #00aa09;
     margin: 10px 0;
 }
 
