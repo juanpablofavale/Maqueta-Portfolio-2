@@ -7,20 +7,48 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="estilos.css">
-    <meta property="og:image" content="https://github.com/juanpablofavale/Maqueta-Portfolio-2/blob/main/img/7613197.png?raw=true" />
+    <meta property="og:image"
+        content="https://github.com/juanpablofavale/Maqueta-Portfolio-2/blob/main/img/7613197.png?raw=true" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <!-- Bootstrap CSS v5.2.1 -->
+    <!-- Bootstrap CSS v5.2.1 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="shortcut icon" href="./img/7613197.png" type="image/x-icon">
 </head>
 
 <body>
+    <div id="inicia" class="sesion">
+        <form action="">
+            <h3>Inicio de Sesion</h3>
+            <div></div>
+            <a class="cerrar" href="#">x</a>
+            <input class="campo" type="text" id="user" name="user" placeholder="Usuario">
+            <input class="campo" type="password" id="password" name="password" placeholder="Contraseña">
+            <a onclick="iniciar()" href="#" class="btn btn-success iniciar">Ingresar</a>
+            <p>¿Aun no tiene una cuenta? <a href="#registra">Registrese!</a></p>
+            <div></div>
+        </form>
+    </div>
+    <div id="registra" class="sesion">
+        <form action="">
+            <h3>Nuevo Usuario</h3>
+            <div></div>
+            <a class="cerrar" href="#">x</a>
+            <input class="campo" type="text" id="user" name="user" placeholder="Usuario">
+            <input class="campo" type="password" id="password" name="password" placeholder="Contraseña">
+            <input class="campo" type="email" id="email" name="email" placeholder="Email">
+            <input class="campo" type="number" id="telefono" name="telefono" placeholder="Telefono">
+            <input class="btn btn-success" type="button" value="Registrarse">
+            <p>¿Ya tiene una cuenta? <a href="#inicia">Inicie Sesion!</a></p>
+            <div></div>
+        </form>
+    </div>
     <header>
         <!-- place navbar here -->
         <nav class="navbar navbar-expand-md bg-body-tertiary">
             <div class="container-fluid">
-                <a class="navbar-brand" href="https://www.argentina.gob.ar/economia/conocimiento/argentina-programa" target="_blank"><img class="logo" src="./img/AP.png" alt="logo">Argentina Programa</a>
+                <a class="navbar-brand" href="https://www.argentina.gob.ar/economia/conocimiento/argentina-programa"
+                    target="_blank"><img class="logo" src="./img/AP.png" alt="logo">Argentina Programa</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -39,6 +67,12 @@
                         <li class="nav-item">
                             <a class="nav-link" href="./proyectos.html">Proyectos</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="btn btn-success reg" href="#registra">Registro</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-success ini" href="#inicia">Iniciar Sesion</a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -46,7 +80,7 @@
 
     </header>
     <main id="main">
-        <img onclick="editar()" id="editar" class="editar visible" src="./img/lapiz.png" alt="" width="30">
+        <img onclick="editar()" id="editar" class="editar" src="./img/lapiz.png" alt="" width="30">
         <img onclick="agregar()" id="agregar" class="agregar" src="./img/agregar1.png" alt="" width="30">
         <img onclick="ok()" id="ok" class="ok" src="./img/ok1.png" alt="" width="30">
         <img onclick="cancel()" id="cancel" class="cancel" src="./img/eliminar2.png" alt="" width="30">

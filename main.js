@@ -48,5 +48,5 @@ function agregar() {
 }
 
 function iniciar(){
-    frmInicio.classList.toggle("visible")
+    btnEdit.classList.toggle("visible")
 }

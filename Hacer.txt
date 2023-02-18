@@ -1,8 +1,9 @@
 Ver Icono - ok
 Ver Titulos - ok
 Ver Icono al enviar vinculo - ok
-Agregar Botones para edicion - (Faltan para las imagenes)
 Agregar funcionalidad de edicion de contenido - ok
-Agregar boton inicio de sesion
-Agregar formulario de inicio de sesion
-Hacer funcional el inicio de sesion y la edicion
+Agregar boton inicio de sesion / registro - ok
+Agregar formulario de inicio de sesion - ok
+Hacer funcional la edicion - ok
+Agregar Botones para edicion - (Faltan para las imagenes)
+Agregar formulario de registro

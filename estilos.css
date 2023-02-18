@@ -9,23 +9,32 @@ body{
     height: 100%;
 }
 
-.sesion.visible{
-    display: flex;
+.sesion:target{
+    visibility: visible;
+    background-color: #000000cc;
+}
+
+.sesion:target form{
+    transform: scale(1);
 }
 
 .sesion{
-    display: none;
+    transition: all .5s;
+    visibility: hidden;
+    display: flex;
     position: fixed;
     justify-content: center;
     align-items: center;
     width: 100vw;
     height: 100vh;
-    background-color: #000000cc;
+    background-color: #00000000;
     border: 2px solid;
     z-index: 100;
 }
 
 form{
+    transform: scale(0);
+    transition: all .5s;
     position: absolute;
     width: 250px;
     background-color: #cacaca;
@@ -52,6 +61,7 @@ form .cerrar{
     cursor: pointer;
     color: green;
     font-weight: bolder;
+    text-decoration: none;
 }
 
 form input{
@@ -63,7 +73,7 @@ form input:first-of-type{
     margin-top: 20px;
 }
 
-form [type=button]{
+form [type=button], form .iniciar{
     border: none;
     border-radius: 5px;
     box-shadow: 7px 7px 20px black;
@@ -83,6 +93,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 
 .profile-img{
