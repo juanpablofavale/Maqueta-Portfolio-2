@@ -213,10 +213,12 @@ nav .btn{
     background-color: #cf9 !important;
 }
 
-.card img{
+.card .img-fluid{
     padding: 20px;
     margin: 0 auto;
     width: 120px;
+    height: 120px;
+    object-fit: contain;
 }
 
 .estudios{
