@@ -2,6 +2,7 @@ let btnCancel = document.getElementById("cancel")
 let btnOk = document.getElementById("ok")
 let btnDelete = document.getElementsByClassName("eliminar")
 let btnEdit = document.getElementById("editar")
+let btnEditImg = document.getElementById("edita-img")
 let btnAdd = document.getElementById("agregar")
 let tagMain = document.getElementById("main")
 let frmInicio = document.getElementById("inicia")
@@ -14,6 +15,7 @@ function visible() {
         i.classList.toggle("visible")
     }
     btnAdd.classList.toggle("visible")
+    btnEditImg.classList.toggle("visible")
 }
 
 function editar() {

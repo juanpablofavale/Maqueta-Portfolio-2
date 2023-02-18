@@ -253,6 +253,15 @@ h6{
     width: 25px;
 }
 
+.edita-img{
+    display: none;
+    cursor: pointer;
+    width: 25px;
+    position: relative;
+    left: 55px;
+    top: -34px;
+}
+
 .ok{
     display: none;
     cursor: pointer;
