@@ -16,6 +16,7 @@ main{
 footer{
     min-height: 5vh;
     background-color: #007c0073;
+    background: linear-gradient(yellowgreen, green);
 }
 
 footer ul{
@@ -24,6 +25,7 @@ footer ul{
 
 footer i{
     cursor: pointer;
+    color: #000000;
 }
 
 footer a{
@@ -35,7 +37,7 @@ footer a{
 }
 
 .bi-whatsapp:hover{
-    color: #38a74b;
+    color: #43fd62;
 }
 
 .bi-instagram:hover{
@@ -56,10 +58,6 @@ footer a{
 
 .bi-envelope-at:hover{
     color: chocolate;
-}
-
-footer i{
-    color: #000000;
 }
 
 body{
@@ -172,7 +170,6 @@ p{
 }
 
 nav{
-    font-weight: bolder;
     padding: auto !important;
 }
 
