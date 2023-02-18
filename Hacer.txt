@@ -7,4 +7,5 @@ Agregar formulario de inicio de sesion - ok
 Hacer funcional la edicion - ok
 Agregar Botones para edicion - (Faltan para las imagenes)
 Agregar formulario de registro - ok
-Hacer el Footer con fecha y redes sociales
+Hacer el Footer con fecha y redes sociales - (falta la fecha)
+Trabajar los estilos y tamaños de las tarjetas de estudio

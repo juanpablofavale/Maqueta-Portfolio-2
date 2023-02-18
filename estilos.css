@@ -15,7 +15,51 @@ main{
 
 footer{
     min-height: 5vh;
-    background-color: #bf9;
+    background-color: #007c0073;
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer i{
+    cursor: pointer;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+.bi-facebook:hover{
+    color: blue;
+}
+
+.bi-whatsapp:hover{
+    color: #38a74b;
+}
+
+.bi-instagram:hover{
+    color: fuchsia;
+}
+
+.bi-linkedin:hover{
+    color: #3d3de9;
+}
+
+.bi-github:hover{
+    color: white;
+}
+
+.bi-phone:hover{
+    color: red;
+}
+
+.bi-envelope-at:hover{
+    color: chocolate;
+}
+
+footer i{
+    color: #000000;
 }
 
 body{
