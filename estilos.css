@@ -4,6 +4,20 @@
     box-sizing: border-box;
 }
 
+header{
+    min-height: 7vh;
+    background: linear-gradient(green, yellowgreen);
+}
+
+main{
+    min-height: 88vh;
+}
+
+footer{
+    min-height: 5vh;
+    background-color: #bf9;
+}
+
 body{
     width: 100%;
     height: 100%;
@@ -15,6 +29,7 @@ body{
 }
 
 .sesion:target form{
+    transition: all .5s;
     transform: scale(1);
 }
 
@@ -33,8 +48,8 @@ body{
 }
 
 form{
+    transition: all .0s;
     transform: scale(0);
-    transition: all .5s;
     position: absolute;
     width: 250px;
     background-color: #cacaca;
@@ -89,7 +104,7 @@ form a{
 }
 
 main{
-    margin: 50px 0;
+    padding: 50px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -113,7 +128,8 @@ p{
 }
 
 nav{
-    background: linear-gradient(green, yellowgreen);
+    font-weight: bolder;
+    padding: auto !important;
 }
 
 .nav-link{
