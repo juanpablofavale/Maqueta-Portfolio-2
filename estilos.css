@@ -384,6 +384,16 @@ h6{
     position: relative;
 }
 
+.estudios a{
+    text-decoration: none;
+    color: #000000;
+    transition: all .2s;
+}
+
+.estudios a:hover{
+    transform: rotate(1deg);
+}
+
 @media screen and (min-width: 350px){
     main ul{
         margin-top: 10px;
