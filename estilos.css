@@ -394,6 +394,11 @@ h6{
     transform: rotate(1deg);
 }
 
+.acerca-texto{
+    font-size: 14px;
+    font-family: monospace;
+}
+
 @media screen and (min-width: 350px){
     main ul{
         margin-top: 10px;
