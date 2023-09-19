@@ -26,6 +26,7 @@ footer ul{
 footer i{
     cursor: pointer;
     color: #000000;
+    transition: color .3s;
 }
 
 footer a{
@@ -205,15 +206,31 @@ nav .btn{
 }
 
 .card{
+    width: 260px;
     border: 1px solid green !important;
     box-shadow: 7px 7px 15px green;
+    border-radius: 11px;
+    height: 260px;
 }
 
 .card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background-color: #cf9 !important;
+    border-radius: 0px 0px 11px 11px;
+}
+
+.card h6{
+    justify-self: flex-start;
+}
+
+.card p{
+    font-size: 12px;
 }
 
 .card .img-fluid{
+    filter: drop-shadow(0px 0px 3px #b7ff00);
     padding: 20px;
     margin: 0 auto;
     width: 120px;
