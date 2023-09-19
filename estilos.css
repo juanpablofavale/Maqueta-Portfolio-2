@@ -13,6 +13,26 @@ main{
     min-height: 88vh;
 }
 
+.title{
+    font-size: 18px;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.accordion-body .desc{
+    text-align: start !important;
+}
+
+.tecno{
+    font-size: 14px;
+    text-align: start !important;
+}
+
+.tecno span{
+    color: green;
+    font-weight: 600;
+}
+
 footer{
     min-height: 5vh;
     background-color: #007c0073;
