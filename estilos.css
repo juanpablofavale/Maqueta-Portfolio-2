@@ -234,7 +234,7 @@ nav .btn{
 .card{
     width: 260px;
     border: 1px solid green !important;
-    box-shadow: 7px 7px 15px green;
+    box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.681);
     border-radius: 11px;
     height: 260px;
 }
@@ -245,6 +245,8 @@ nav .btn{
     justify-content: space-between;
     background-color: #cf9 !important;
     border-radius: 0px 0px 11px 11px;
+    box-shadow: 0 0 20px inset green;
+    
 }
 
 .card h6{
@@ -427,11 +429,11 @@ h6{
 .estudios a{
     text-decoration: none;
     color: #000000;
-    transition: all .2s;
+    transition: all .3s;
 }
 
 .estudios a:hover{
-    transform: rotate(1deg);
+    transform: scale(1.07);
 }
 
 .acerca-texto{
