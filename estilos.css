@@ -315,18 +315,13 @@ h6{
     font-weight: 500;
 }
 
-.accordion{
-    width: 280px;
-}
-
 .accordion-body{
     text-align: center;
-    padding: 30px !important;
-    padding-top: 50px !important;
+    padding-top: 20px !important;
 }
 
 .img-proy{
-    width: 240px !important;
+    width: 100% !important;
     box-shadow: 0 0 15px black;
     margin-bottom: 10px;
 }
@@ -452,15 +447,11 @@ h6{
         margin-top: 0;
     }
     .accordion{
-        width: 80vw;
+        width: 95vw;
         max-width: 900px;
     }
     .proyectos{
         max-width: 900px;
-    }
-    .img-proy{
-        width: 70% !important;
-        max-width: 500px;
     }
 }
 @media screen and (min-width: 768px){
