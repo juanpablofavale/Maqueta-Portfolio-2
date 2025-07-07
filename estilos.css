@@ -443,11 +443,12 @@ h6{
 
 @media screen and (min-width: 350px){
     main ul{
+        margin: auto;
         margin-top: 10px;
         display: flex;
         flex-wrap: wrap;
         width: auto;
-        max-width: 900px;
+        max-width: 80%;
         justify-content: center;
         gap: 10px;
     }

@@ -1,0 +1,19 @@
+agregar descarga del cv
+iniciar con landing page clara y concisa con nombre, cargo y boton llamativo que lleve a:
+										Proyectos?
+										Linkedin?
+										Github?
+										
+
+seccion experiencia
+seccion proyectos (la mas importante)
+seccion habilidades
+
+seccion contacto
+seccion estudios
+seccion acerca de
+
+ver si implementar con node tipo full stack con credenciales y edicion de contenido
+
+pensar bien tematica y colores
+Cambiar tipografias del portfolio

@@ -47,10 +47,6 @@
     </nav>
   </header>
   <main id="main">
-    <img onclick="editar()" id="editar" class="editar" src="./img/lapiz.png" alt="" width="30">
-    <img onclick="agregar()" id="agregar" class="agregar" src="./img/agregar1.png" alt="" width="30">
-    <img onclick="ok()" id="ok" class="ok" src="./img/ok1.png" alt="" width="30">
-    <img onclick="cancel()" id="cancel" class="cancel" src="./img/eliminar2.png" alt="" width="30">
     <h1>Proyectos</h1>
     <div class="proyectos">
       <div class="accordion" id="accordionExample">
@@ -106,7 +102,6 @@
           <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
             data-bs-parent="#accordionExample">
             <div class="accordion-body">
-              <img class="eliminar eliminar-proyectos" src="./img/eliminar1.png" alt="" onclick="eliminar()">
               <img class="img-proy" src="./img/amazingEvents.png" alt="">
               <p class="title">Sitio web con eventos, filtros y estadisticas</p>
               <p class="desc">Proyecto Final Argentina Programa 4.0 con MindHub</p>
@@ -151,7 +146,6 @@
           <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
             data-bs-parent="#accordionExample">
             <div class="accordion-body">
-              <img class="eliminar eliminar-proyectos" src="./img/eliminar1.png" alt="" onclick="eliminar()">
               <img class="img-proy" src="./img/rotiseria.png" alt="">
               <p class="title">Sitio de Rotiseria Buena Voluntad</p>
               <p class="desc">Aplicacion Web con Lista de Precios, Login y CRUD completo de Productos</p>
@@ -173,7 +167,6 @@
           <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
             data-bs-parent="#accordionExample">
             <div class="accordion-body">
-              <img class="eliminar eliminar-proyectos" src="./img/eliminar1.png" alt="" onclick="eliminar()">
               <img class="img-proy" src="./img/nerdilon.png" alt="">
               <p class="title">Sitio Web de Nerdilon.</p>
               <p class="desc">SPA Front de E-Commerce y Web Institucional con Filtros y Carga dinamica</p>
@@ -195,7 +188,6 @@
         <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
           data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            <img class="eliminar eliminar-proyectos" src="./img/eliminar1.png" alt="" onclick="eliminar()">
             <img class="img-proy" src="./img/mdhl.png" alt="">
             <p class="title">Sitio Estatico Institucional MDHL</p>
             <p class="desc">Proyecto para Argentina Programa con MindHub. Sitio Estatico Responsive</p>
@@ -205,7 +197,7 @@
               al sitio</a>
           </div>
         </div>
-
+        <!--
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingNine">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine"
@@ -244,25 +236,25 @@
             </div>
           </div>
         </div>
-
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingFive">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFive">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
               data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
               Portfolio Personal
             </button>
           </h2>
           <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
-            data-bs-parent="#accordionExample">
+          data-bs-parent="#accordionExample">
             <div class="accordion-body">
               <img class="eliminar eliminar-proyectos" src="./img/eliminar1.png" alt="" onclick="eliminar()">
               <img class="img-proy" src="./img/portfolio2.png" alt="">
               <p>Portfolio personal de prueba.</p>
               <a class="btn btn-success" href="https://juanpablofavale.github.io/portfolio-angular/" target="_blank">Ir
                 al sitio</a>
+              </div>
             </div>
           </div>
-        </div>
+        -->
 
       </div>
     </div>
@@ -278,6 +270,7 @@
       <li><a target="_blank" href="mailto:juanpablofavale@hotmail.com"><i class="bi bi-envelope-at"></i></a></li>
     </ul>
   </footer>
+
   <!-- Bootstrap JavaScript Libraries -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
     integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
@@ -286,7 +279,6 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
     integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
     </script>
-  <script src="./main.js"></script>
 </body>
 
 </html>
