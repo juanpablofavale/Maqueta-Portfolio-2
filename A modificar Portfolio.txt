@@ -17,3 +17,5 @@ ver si implementar con node tipo full stack con credenciales y edicion de conten
 
 pensar bien tematica y colores
 Cambiar tipografias del portfolio
+
+Agregar experiencia (aoniken, ambito policial, casa de jesus como experiencia y no como proyecto)
